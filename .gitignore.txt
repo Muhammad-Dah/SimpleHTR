@@ -1,0 +1,5 @@
+data/words/img/*
+src/__pycache__/
+*.so
+*.pyc
+.idea/

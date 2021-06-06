@@ -1,0 +1,12 @@
+editdistance==0.5.2
+lmdb==1.0.0
+matplotlib==3.2.1
+numpy==1.19.5
+opencv-python==4.4.0.46
+path==15.0.0
+tensorflow==2.4.0
+scikit-image==0.18.1
+autocorrect==2.4.0
+deep-translator==1.4.2
+gTTS==2.2.2
+keras==2.4.3
