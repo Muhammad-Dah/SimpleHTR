@@ -132,7 +132,7 @@ def showResults():
     texts = ['%d:' % i + texts[i] for i in range(len(texts))]
     f.close()
 
-    plt.figure('Translation invariance', figsize=(12,10))
+    plt.figure('Translation invariance', figsize=(12, 10))
 
     plt.plot(probs, 'o-')
     plt.xticks(np.arange(len(texts)), texts, rotation='vertical')

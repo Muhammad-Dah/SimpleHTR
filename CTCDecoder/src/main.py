@@ -74,7 +74,6 @@ def testWordExample():
 
 
 def plot_training_results(classes, mat):
-
     plt.imshow(mat.transpose())
     plt.colorbar()
     plt.show()
@@ -91,17 +90,15 @@ def plot_training_results(classes, mat):
     f_freq = mat[:, f_index]
     blank_freq = mat[:, blank_index]
 
-
     p1, _, _ = plt.stem(o_freq, markerfmt='o', label="o 68", use_line_collection=True)
     p1.set_markerfacecolor('none')
-    p2, _, _ =plt.stem(f_freq, markerfmt='o', label="f 59", use_line_collection=True)
+    p2, _, _ = plt.stem(f_freq, markerfmt='o', label="f 59", use_line_collection=True)
     p2.set_markerfacecolor('none')
-    p3, _, _ =plt.stem(blank_freq, markerfmt='o', label="blank", use_line_collection=True)
+    p3, _, _ = plt.stem(blank_freq, markerfmt='o', label="blank", use_line_collection=True)
     p3.set_markerfacecolor('none')
 
     plt.legend(loc='upper right')
     plt.show()
-
 
 
 def testLineExample():

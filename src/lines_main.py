@@ -13,6 +13,7 @@ from translator import Translator, google_translate
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'  # FATAL
 logging.getLogger('tensorflow').setLevel(logging.FATAL)
 
+
 def infer_line(model, images_lst):
     """recognize text in image provided by file path"""
 
@@ -77,7 +78,5 @@ def main():
     print('Google translator: \t', google_translate(pred_line))
 
 
-
 if __name__ == '__main__':
     main()
-

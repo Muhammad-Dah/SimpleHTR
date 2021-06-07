@@ -33,7 +33,7 @@ class RotateAndDeslantImage:
         if not next_li:
             return row_start_idx, col_start_idx
         row_start_idx, col_start_idx = self.find_maxima(im_, row_start_idx - 1, col_start_idx - 2 + next_li[0],
-                                           col_start_idx - 2 + next_li[-1])
+                                                        col_start_idx - 2 + next_li[-1])
         return row_start_idx, col_start_idx
 
     # deslant image by calculating its slope and then rotating it overcome the effect of that shift

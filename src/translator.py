@@ -9,6 +9,7 @@ from translator_model.translator_main import model_final, get_en_fr_tokenizers
 def google_translate(text: str, source='auto', target='fr'):
     return GoogleTranslator(source=source, target=target).translate(text)
 
+
 class Translator:
     def __init__(self):
         # Load English data

@@ -56,4 +56,3 @@ def extract_words_from_image(img):
         images = [img[:, window[0]:window[1]] for window in dividers]
 
     return images
-
