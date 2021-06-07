@@ -275,4 +275,13 @@ def  model_final (input_shape, output_sequence_length, english_vocab_size, frenc
 
 ##### &nbsp;
 
+## Integration with Handwritten Text Recognition
+Now let’s see the flow of the integrated HTR-translation model.
+![1](https://user-images.githubusercontent.com/37774604/121009960-71ebbe00-c79d-11eb-9f58-c604a712fe9d.png)
+
+
+##### &nbsp;
+##### &nbsp;
+
+
 
