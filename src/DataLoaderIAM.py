@@ -4,8 +4,8 @@ import cv2
 import numpy as np
 from path import Path
 
-from SamplePreprocessor import image_preprocess, word_image_preprocess
 from Model import Model
+from SamplePreprocessor import image_preprocess, word_image_preprocess
 
 
 class Sample:
